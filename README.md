@@ -1,5 +1,5 @@
 # ReadIt
-A desktop app where you can save the links which you want to read later
+A desktop app built using electron JS where you can save the urls which you want to read later
 
 #### Steps to install it
 + clone the repo using ***git clone https://github.com/impavido-7/ReadIt.git***
