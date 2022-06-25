@@ -1,0 +1,32 @@
+{
+  "name": "read-it",
+  "version": "1.0.0",
+  "description": "Add the reading list to read later",
+  "main": "main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron .",
+    "build": "electron-builder"
+  },
+  "repository": "",
+  "author": "Lakshman <lakshmanreddykp@gmail.com>",
+  "homepage": "https://github.com/impavido-7/ReadIt",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "nodemon": "^2.0.0",
+    "electron-builder": "^23.0.3"
+  },
+  "dependencies": {
+    "electron-window-state": "^5.0.3"
+  },
+  "build": {
+    "appId": "com.lakshman.search",
+    "productName": "ReadIt",
+    "linux": {
+      "target": "deb",
+      "category": "Utility",
+      "icon": "./build/images/"
+    }
+  }
+}
